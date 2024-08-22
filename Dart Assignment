@@ -1,0 +1,37 @@
+
+class Student{
+
+
+void printStudentInfo(String name,String age,String grade_level)
+{
+    print("Name:"+ name);
+    print("Age: "+ age);
+    print("Grade Level:"+ grade_level);
+}
+
+}
+  
+  
+
+class Teacher{
+
+ void printTeacherInfo(String name,String age,String subject)
+  {
+    print("Name: "+ name);
+    print("Age: "+ age);
+    print("Subject: "+ subject);
+
+  }
+    
+}
+  
+
+void main(){
+
+
+    var teacherObject = Teacher();
+    teacherObject.printTeacherInfo("karabo","27","Dart");
+
+
+}
+
